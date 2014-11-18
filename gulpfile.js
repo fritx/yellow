@@ -14,6 +14,8 @@ gulp.task('less', function(){
 gulp.task('js', function(){
   gulp.src('src/yellow.js')
     .pipe(gulp.dest('dist'))
+  gulp.src('bower_components/jquery/dist/jquery.min.js')
+    .pipe(gulp.dest('dist'))
 })
 
 gulp.task('jade', function(){
