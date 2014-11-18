@@ -1,0 +1,126 @@
+/*2014/10/29*/
+/*Miguel Valentine*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+[hidden],
+template {
+  display: none;
+}
+html {
+  font-family: "微软雅黑", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  color: #222;
+  margin: 0;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*上方PUBLIC*/
+.slide-pic {
+  background: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-color: #eacc32;
+  height: 773px;
+  width: 100%;
+  display: inline-block;
+}
+.slide-pic h3.title {
+  color: #222;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 90px;
+  display: block;
+  float: left;
+  cursor: default;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.buttonframe {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.buttonframe .button {
+  margin-right: 20px;
+}
+.button {
+  display: inline-block;
+  border: 3px #000 solid;
+  cursor: pointer;
+}
+.button:hover {
+  transition: all 0.1s linear;
+  background: rgba(255, 255, 255, 0.3);
+}
+.button-big {
+  padding: 15px 20px;
+}
+.hr {
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #222;
+}
+.center {
+  text-align: center;
+  margin: 60px auto 40px auto;
+}
+.fz-24 {
+  font-size: 24px;
+}
+.b {
+  font-weight: bolder;
+}
+.h4 {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: lighter;
+}
+.wrap-full {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
